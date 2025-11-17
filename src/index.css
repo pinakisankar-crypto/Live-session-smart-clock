@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@layer components{
+  .btn{
+    border-radius: 8px;
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+  }
+
+  .clock-card{
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 10px;
+  }
+}
