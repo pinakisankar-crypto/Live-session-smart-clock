@@ -16,7 +16,7 @@ const Clock = () => {
       <div className="clock-card relative overflow-hidden">
         <AlarmSetter setAlarms={setAlarms} />
         <AlarmList alarms={alarms} setAlarms = {setAlarms} />
-        <VoiceCommand/>
+        <VoiceCommand setAlarms={setAlarms} />
       </div>
     </section>
   );
